@@ -1,6 +1,6 @@
 .headerContainer {
     height: 5rem;
-    border-bottom: 1px solid var(--gray-700);
+    border-bottom: 1px solid var(--gray-800);
 }
 
 .headerContent {
@@ -54,5 +54,9 @@
             }
             
         }
+    }
+
+    button {
+        margin-left: auto; // vai tentar dar o máximo de margem que ele puder
     }
 }
