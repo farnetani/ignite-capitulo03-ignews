@@ -1,0 +1,53 @@
+// Reseta as medidas de tudo
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Define as variáveis de cores
+:root {
+    --white: #FFFFFF;  
+    --gray-50: #e1e1e6; // cinza muto claro
+    --gray-300: #a8a8b3;
+    --gray-900: #121214;
+
+    --cyan-500: #61dafb; // aqui é a média (ponto do meio)
+    --yellow-500: #eba417;
+
+}
+
+// Define o tamanho padrão das fontes
+
+// IPAD
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%; // = 15px
+    }
+}
+
+// Mobile
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+body {
+    background: var(--gray-900);
+    color: var(--white);
+}
+
+// Define a fonte
+body, input, textarea, select, button {
+    font: 400 1rem "Roboto", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit; // assume a cor do elemento pai, ou seja o elmento que estiver ao redor
+    text-decoration: none;
+}
